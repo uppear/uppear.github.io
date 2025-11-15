@@ -1,0 +1,18 @@
+/* TEAM */
+Founder: Stanislas Beaudoin
+Role: Créateur & Consultant AEO
+Website: https://uppear.github.io/
+Contact: contact.uppear@gmail.com
+
+/* AGENCY INFO */
+Agency: Uppear
+Mission: Rendre les entreprises visibles dans les réponses d'IA génératives.
+Location: France
+Expertise: AEO, structuration de données, indexation IA
+
+/* TECHNOLOGY */
+Stack: HTML, CSS, JavaScript
+Hosting: GitHub Pages
+
+/* CREDITS */
+Design & Code: Uppear (2025)
