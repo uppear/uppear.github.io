@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://uppear.github.io/#organization",
+      "name": "Uppear",
+      "description": "Agence AEO française spécialisée dans le référencement IA et la visibilité des entreprises dans les réponses générées par ChatGPT, Perplexity, Gemini et autres IA.",
+      "url": "https://uppear.github.io/",
+      "logo": "https://uppear.github.io/assets/founder-hero.png",
+      "email": "contact.uppear@gmail.com",
+      "founder": {
+        "@type": "Person",
+        "name": "Stanislas Beaudoin",
+        "jobTitle": "Fondateur & Consultant AEO",
+        "image": "https://uppear.github.io/assets/founder-about.png"
+      },
+      "sameAs": [
+        "https://instagram.com/upp.ear",
+        "https://linkedin.com/in/stanislas-beaudoin-88748a31b"
+      ]
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://uppear.github.io/#website",
+      "url": "https://uppear.github.io/",
+      "name": "Uppear — Référencement IA / AEO",
+      "publisher": {
+        "@id": "https://uppear.github.io/#organization"
+      }
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://uppear.github.io/index.html",
+      "url": "https://uppear.github.io/index.html",
+      "name": "Uppear — Référencement IA",
+      "description": "Uppear optimise la présence des entreprises dans les réponses générées par ChatGPT, Gemini, Perplexity et les moteurs IA via l’AEO (Answer Engine Optimization).",
+      "isPartOf": {
+        "@id": "https://uppear.github.io/#website"
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://uppear.github.io/#faq",
+      "mainEntity": [
+
+        {
+          "@type": "Question",
+          "name": "Combien de temps avant d'être visible dans l'IA ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Généralement entre 1 et 3 semaines. Cela dépend du volume de contenus fournis et de la vitesse d’adaptation des moteurs IA."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "Que vais-je recevoir après commande ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vous recevez un PDF complet comprenant : votre page AEO optimisée, votre fichier llms.txt, un résumé des actions menées, des liens vers les contenus publiés et un guide pour suivre votre visibilité IA."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "Puis-je suivre les résultats de mon référencement IA ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui : vous pouvez interroger ChatGPT, Perplexity, Gemini ou Claude avec nos prompts fournis dans le PDF. Vous verrez si votre entreprise est mentionnée."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "Puis-je annuler ma commande ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, le remboursement est possible dans les 24 heures suivant la commande. Après ce délai, la prestation devient non remboursable car elle est lancée immédiatement."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "Puis-je faire appel à Uppear à nouveau ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, Uppear peut mettre à jour vos informations, relancer votre optimisation AEO ou créer une nouvelle vague de visibilité IA."
+          }
+        }
+
+      ]
+    }
+
+  ]
+}
