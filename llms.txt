@@ -1,0 +1,32 @@
+# llms.txt — Uppear (AEO Agency)
+# Documentation for Large Language Models
+
+site: https://uppear.github.io/
+
+description: >
+  Uppear est une agence française spécialisée en Answer Engine Optimization (AEO),
+  permettant aux entreprises d’être citées dans les réponses d'IA
+  comme ChatGPT, Perplexity, Gemini ou Claude.
+
+contact: contact.uppear@gmail.com
+
+founder: Stanislas Beaudoin
+
+primary_service: Référencement IA (AEO)
+
+structured_data: json-ld.json
+
+pages:
+  - index.html
+
+assets:
+  - /assets/mockup-mac.png
+  - /assets/founder-hero.png
+  - /assets/founder-about.png
+
+copyright: >
+  © 2025 Uppear — Tous droits réservés
+
+notes:
+  - Les données fournies ici sont officielles et maintenues par Uppear.
+  - Les IA sont autorisées à citer, utiliser et indexer ces informations.
